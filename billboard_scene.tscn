@@ -1,0 +1,59 @@
+[gd_scene load_steps=7 format=3 uid="uid://uudsihh7tgj6"]
+
+[ext_resource type="PackedScene" uid="uid://c865exy50hvug" path="res://Assets/low_poly_billboard_sign_-_standard/scene.gltf" id="1_geopt"]
+[ext_resource type="PackedScene" uid="uid://dhtbtbj4ubqge" path="res://Assets/modern_nyc_dwellings/scene.gltf" id="2_uau4x"]
+[ext_resource type="PackedScene" uid="uid://db01alk768ip0" path="res://Assets/billboard.tscn" id="2_um1u3"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_uvy0e"]
+
+[sub_resource type="Sky" id="Sky_lxecl"]
+sky_material = SubResource("ProceduralSkyMaterial_uvy0e")
+
+[sub_resource type="Environment" id="Environment_8pvjk"]
+background_mode = 2
+sky = SubResource("Sky_lxecl")
+ambient_light_source = 3
+reflected_light_source = 2
+tonemap_mode = 2
+tonemap_exposure = 1.3
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Billboard" parent="." instance=ExtResource("1_geopt")]
+transform = Transform3D(1.47222, 0, 1.67362, 0, 2.229, 0, -1.67362, 0, 1.47222, 39.5185, 0, 41.3225)
+
+[node name="billboard2" parent="Billboard" instance=ExtResource("2_um1u3")]
+transform = Transform3D(9.122, 0, -1.16841e-07, -3.98735e-07, 1.91069e-15, -2.673, 0, 1, 5.10726e-15, 0, 14.779, 0.028)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Billboard"]
+transform = Transform3D(1, -3.12116e-08, -1.13601e-08, 0, 0.34202, -0.939693, 3.32147e-08, 0.939693, 0.34202, 2.52811, 11.7875, 1.88316)
+light_energy = 9.866
+light_bake_mode = 0
+spot_range = 15.0
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="Billboard"]
+transform = Transform3D(1, -3.12116e-08, -1.13601e-08, 0, 0.34202, -0.939693, 3.32147e-08, 0.939693, 0.34202, 7.51504, 11.7875, 2.21103)
+light_energy = 9.866
+light_bake_mode = 0
+spot_range = 15.0
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="Billboard"]
+transform = Transform3D(0.999132, 0.0391373, 0.0142448, -1.82496e-16, 0.34202, -0.939693, -0.041649, 0.938877, 0.341723, -7.62471, 11.7875, 1.9545)
+light_energy = 9.866
+light_bake_mode = 0
+spot_range = 15.0
+
+[node name="SpotLight3D4" type="SpotLight3D" parent="Billboard"]
+transform = Transform3D(0.999132, 0.0391373, 0.0142448, -1.82496e-16, 0.34202, -0.939693, -0.041649, 0.938877, 0.341723, -2.62845, 11.7875, 2.0744)
+light_energy = 9.866
+light_bake_mode = 0
+spot_range = 15.0
+
+[node name="Apartments" parent="." instance=ExtResource("2_uau4x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -20.15, 0)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.2756, 31.6262, 93.9901)
+environment = SubResource("Environment_8pvjk")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]

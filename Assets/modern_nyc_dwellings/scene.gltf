@@ -1,0 +1,1834 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        43.244346618652344,
+        3.2582101821899414,
+        0.04650486633181572
+      ],
+      "min": [
+        -43.66914367675781,
+        -5.876910209655762,
+        -0.5945702791213989
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 96,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        -1.0625581303713716e-08,
+        -0.06743525713682175,
+        0.9977236390113831
+      ],
+      "min": [
+        -7.897012255853042e-05,
+        -0.07000498473644257,
+        0.9975466728210449
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        1.0,
+        -2.863885697479418e-07,
+        7.876687595853582e-05,
+        1.0
+      ],
+      "min": [
+        1.0,
+        -5.711375251848949e-06,
+        -1.4494319522384558e-08,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.7506908178329468,
+        0.9900649785995483
+      ],
+      "min": [
+        0.044760510325431824,
+        0.3124154806137085
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 64,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.7506908178329468,
+        0.9900649785995483
+      ],
+      "min": [
+        0.044760510325431824,
+        0.3124154806137085
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 12,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 192,
+      "componentType": 5126,
+      "count": 105,
+      "max": [
+        63.2862663269043,
+        11.044828414916992,
+        0.3057900071144104
+      ],
+      "min": [
+        -63.91855239868164,
+        -30.15894889831543,
+        -0.41046518087387085
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1452,
+      "componentType": 5126,
+      "count": 105,
+      "max": [
+        0.09733036160469055,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.03807666897773743,
+        -1.0,
+        -0.0007590955938212574
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 128,
+      "componentType": 5126,
+      "count": 105,
+      "max": [
+        0.0,
+        0.04870324209332466,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.04870126023888588,
+        -0.044177137315273285,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 128,
+      "componentType": 5126,
+      "count": 105,
+      "max": [
+        -7.1465864181518555,
+        0.12645132839679718
+      ],
+      "min": [
+        -13.106782913208008,
+        0.05542295053601265
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 968,
+      "componentType": 5126,
+      "count": 105,
+      "max": [
+        -7.1465864181518555,
+        0.12645132839679718
+      ],
+      "min": [
+        -13.106782913208008,
+        0.05542295053601265
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 48,
+      "componentType": 5125,
+      "count": 318,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2712,
+      "componentType": 5126,
+      "count": 44,
+      "max": [
+        77.23726654052734,
+        19.613544464111328,
+        0.001306295394897461
+      ],
+      "min": [
+        -49.967552185058594,
+        -19.613540649414063,
+        -0.00029397010803222656
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3240,
+      "componentType": 5126,
+      "count": 44,
+      "max": [
+        3.68044784408994e-05,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -4.3114105210406706e-05,
+        -1.594974492036272e-05,
+        1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1808,
+      "componentType": 5126,
+      "count": 44,
+      "max": [
+        3.49155855178833,
+        0.9994891285896301
+      ],
+      "min": [
+        1.172338843345642,
+        -0.0019284486770629883
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2160,
+      "componentType": 5126,
+      "count": 44,
+      "max": [
+        3.49155855178833,
+        0.9994891285896301
+      ],
+      "min": [
+        1.172338843345642,
+        -0.0019284486770629883
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1320,
+      "componentType": 5125,
+      "count": 126,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3768,
+      "componentType": 5126,
+      "count": 36,
+      "max": [
+        57.201717376708984,
+        38.62843704223633,
+        0.6147209405899048
+      ],
+      "min": [
+        -70.00310516357422,
+        -23.362539291381836,
+        -0.4875110387802124
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4200,
+      "componentType": 5126,
+      "count": 36,
+      "max": [
+        3.1157417197391624e-06,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.004086730536073446,
+        -1.0,
+        -0.00037460922612808645
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2512,
+      "componentType": 5126,
+      "count": 36,
+      "max": [
+        1.4087297916412354,
+        1.2329468727111816
+      ],
+      "min": [
+        -6.76070499420166,
+        -0.3577072024345398
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2800,
+      "componentType": 5126,
+      "count": 36,
+      "max": [
+        1.4087297916412354,
+        1.2329468727111816
+      ],
+      "min": [
+        -6.76070499420166,
+        -0.3577072024345398
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1824,
+      "componentType": 5125,
+      "count": 60,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4632,
+      "componentType": 5126,
+      "count": 28,
+      "max": [
+        23.326854705810547,
+        42.3807373046875,
+        0.154887855052948
+      ],
+      "min": [
+        -41.47123336791992,
+        -13.730329513549805,
+        -0.20800620317459106
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4968,
+      "componentType": 5126,
+      "count": 28,
+      "max": [
+        1.884841616117683e-09,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -0.06186933070421219,
+        -0.053017616271972656,
+        0.9966751933097839
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3088,
+      "componentType": 5126,
+      "count": 28,
+      "max": [
+        0.8721082210540771,
+        1.9964489936828613
+      ],
+      "min": [
+        -0.0030710441060364246,
+        0.8734982013702393
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2064,
+      "componentType": 5125,
+      "count": 42,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5304,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        54.07305908203125,
+        31.89281463623047,
+        0.00037217140197753906
+      ],
+      "min": [
+        -54.010643005371094,
+        -31.89281463623047,
+        -5.507469177246094e-05
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5544,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        0.0,
+        -2.990152125903478e-08,
+        1.0
+      ],
+      "min": [
+        -5.6570061133243144e-05,
+        -5.980496808888347e-08,
+        1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1808,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        4.715083150585997e-07,
+        1.0,
+        5.980497519431083e-08,
+        1.0
+      ],
+      "min": [
+        -3.959123375807394e-07,
+        -1.0,
+        -5.980496808888347e-08,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3312,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        2.0849242210388184,
+        1.6705083847045898
+      ],
+      "min": [
+        -1.6004236936569214,
+        0.011678889393806458
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3472,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        2.0849242210388184,
+        1.6705083847045898
+      ],
+      "min": [
+        -1.6004236936569214,
+        0.011678889393806458
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2232,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5784,
+      "componentType": 5126,
+      "count": 46,
+      "max": [
+        63.951900482177734,
+        24.732131958007813,
+        2.159032106399536
+      ],
+      "min": [
+        -62.252925872802734,
+        -26.357830047607422,
+        -1.1752651929855347
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6336,
+      "componentType": 5126,
+      "count": 46,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3632,
+      "componentType": 5126,
+      "count": 46,
+      "max": [
+        1.203089952468872,
+        1.1684800386428833
+      ],
+      "min": [
+        -0.26084500551223755,
+        -0.07260499894618988
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2376,
+      "componentType": 5125,
+      "count": 96,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6888,
+      "componentType": 5126,
+      "count": 640,
+      "max": [
+        61.055118560791016,
+        0.007219403516501188,
+        14.658564567565918
+      ],
+      "min": [
+        -60.63887405395508,
+        -0.0529421865940094,
+        -22.780773162841797
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 14568,
+      "componentType": 5126,
+      "count": 640,
+      "max": [
+        4.802482180821244e-07,
+        -1.0,
+        0.0
+      ],
+      "min": [
+        -4.802478201781923e-07,
+        -1.0,
+        -1.2640455224754987e-06
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 2128,
+      "componentType": 5126,
+      "count": 640,
+      "max": [
+        1.0,
+        4.802482180821244e-07,
+        3.5240423130744603e-06,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -2.4012632593439776e-07,
+        -1.685236554749281e-07,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4000,
+      "componentType": 5126,
+      "count": 640,
+      "max": [
+        0.7481485605239868,
+        0.7433669567108154
+      ],
+      "min": [
+        0.2593792974948883,
+        0.2803387939929962
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 9120,
+      "componentType": 5126,
+      "count": 640,
+      "max": [
+        0.7481485605239868,
+        0.7433669567108154
+      ],
+      "min": [
+        0.2593792974948883,
+        0.2803387939929962
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2760,
+      "componentType": 5125,
+      "count": 1536,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22248,
+      "componentType": 5126,
+      "count": 8374,
+      "max": [
+        59.43810272216797,
+        52.733036041259766,
+        28.97216033935547
+      ],
+      "min": [
+        -70.86681365966797,
+        -25.90288734436035,
+        -29.182525634765625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 122736,
+      "componentType": 5126,
+      "count": 8374,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 12368,
+      "componentType": 5126,
+      "count": 8374,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14240,
+      "componentType": 5126,
+      "count": 8374,
+      "max": [
+        1.648693561553955,
+        0.9992280006408691
+      ],
+      "min": [
+        -0.9682358503341675,
+        0.0005455117207020521
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 81232,
+      "componentType": 5126,
+      "count": 8374,
+      "max": [
+        1.648693561553955,
+        0.9992280006408691
+      ],
+      "min": [
+        -0.9682358503341675,
+        0.0005455117207020521
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 8904,
+      "componentType": 5125,
+      "count": 18594,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 223224,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        58.797725677490234,
+        17.670005798339844,
+        26.224002838134766
+      ],
+      "min": [
+        -68.4071044921875,
+        -35.34000778198242,
+        -26.224014282226563
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 223416,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        1.0,
+        1.0,
+        1.7941103180874052e-07
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 148224,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        2.8239381313323975,
+        1.476874589920044
+      ],
+      "min": [
+        -1.9145891666412354,
+        -0.47687476873397827
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 83280,
+      "componentType": 5125,
+      "count": 30,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 223608,
+      "componentType": 5126,
+      "count": 97,
+      "max": [
+        62.744529724121094,
+        30.554046630859375,
+        0.04650486633181572
+      ],
+      "min": [
+        -64.46028900146484,
+        -65.3507308959961,
+        -0.5945702791213989
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 224772,
+      "componentType": 5126,
+      "count": 97,
+      "max": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 146352,
+      "componentType": 5126,
+      "count": 97,
+      "max": [
+        1.0,
+        1.0,
+        0.03817951679229736,
+        1.0
+      ],
+      "min": [
+        0.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 148352,
+      "componentType": 5126,
+      "count": 97,
+      "max": [
+        -1.270426630973816,
+        0.9994359016418457
+      ],
+      "min": [
+        -4.524520397186279,
+        0.12570998072624207
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 149128,
+      "componentType": 5126,
+      "count": 97,
+      "max": [
+        -1.270426630973816,
+        0.9994359016418457
+      ],
+      "min": [
+        -4.524520397186279,
+        0.12570998072624207
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 83400,
+      "componentType": 5125,
+      "count": 276,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "99.Miles (https://sketchfab.com/99.Miles)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/modern-nyc-dwellings-8ef9555171c44ba1872a17558f589630",
+      "title": "Modern NYC Dwellings"
+    },
+    "generator": "Sketchfab-15.18.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 84504,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 149904,
+      "byteOffset": 84504,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 225936,
+      "byteOffset": 234408,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 147904,
+      "byteOffset": 460344,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 608248,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/Pathway_Tiles_diffuse.png"
+    },
+    {
+      "uri": "textures/Pathway_Tiles_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/Pathway_Tiles_normal.png"
+    },
+    {
+      "uri": "textures/Sidewalk_diffuse.jpeg"
+    },
+    {
+      "uri": "textures/Sidewalk_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/Sidewalk_normal.png"
+    },
+    {
+      "uri": "textures/Road_diffuse.png"
+    },
+    {
+      "uri": "textures/Road_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/Dirt_diffuse.png"
+    },
+    {
+      "uri": "textures/Drainage_diffuse.png"
+    },
+    {
+      "uri": "textures/Rooftops_diffuse.png"
+    },
+    {
+      "uri": "textures/Glass_diffuse.png"
+    },
+    {
+      "uri": "textures/Glass_normal.png"
+    },
+    {
+      "uri": "textures/Building_diffuse.png"
+    },
+    {
+      "uri": "textures/Building_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/Building_normal.png"
+    },
+    {
+      "uri": "textures/Generic_Bricks_diffuse.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "Pathway_Tiles",
+      "normalTexture": {
+        "index": 2
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 3
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "specularGlossinessTexture": {
+            "index": 4
+          }
+        }
+      },
+      "name": "Sidewalk",
+      "normalTexture": {
+        "index": 5
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 6
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.041142982530994375,
+            0.041142982530994375,
+            0.041142982530994375
+          ],
+          "specularGlossinessTexture": {
+            "index": 7
+          }
+        }
+      },
+      "name": "Road"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 8
+          },
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Dirt"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 9
+          },
+          "glossinessFactor": 0.1788854381999832,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Drainage"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 10
+          },
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Rooftops"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 11
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.10819080591483707,
+            0.10819080591483707,
+            0.10819080591483707
+          ]
+        }
+      },
+      "name": "Glass",
+      "normalTexture": {
+        "index": 12,
+        "scale": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 13
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "specularGlossinessTexture": {
+            "index": 14
+          }
+        }
+      },
+      "name": "Building",
+      "normalTexture": {
+        "index": 15
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 16
+          },
+          "glossinessFactor": 0.14818788019163498,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Generic_Bricks"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Road.009_Pathway_Tiles_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Road.006_Sidewalk_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Road.002_Road_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14,
+            "TEXCOORD_1": 15
+          },
+          "indices": 16,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "main.013_Dirt_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 18,
+            "POSITION": 17,
+            "TEXCOORD_0": 19,
+            "TEXCOORD_1": 20
+          },
+          "indices": 21,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "main.011_Drainage_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 23,
+            "POSITION": 22,
+            "TEXCOORD_0": 24
+          },
+          "indices": 25,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "main.010_Pathway_Tiles_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 27,
+            "POSITION": 26,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29,
+            "TEXCOORD_1": 30
+          },
+          "indices": 31,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "main.008_Rooftops_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 33,
+            "POSITION": 32,
+            "TEXCOORD_0": 34
+          },
+          "indices": 35,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "main.007_Glass_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 37,
+            "POSITION": 36,
+            "TANGENT": 38,
+            "TEXCOORD_0": 39,
+            "TEXCOORD_1": 40
+          },
+          "indices": 41,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "main.006_Building_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 43,
+            "POSITION": 42,
+            "TANGENT": 44,
+            "TEXCOORD_0": 45,
+            "TEXCOORD_1": 46
+          },
+          "indices": 47,
+          "material": 7,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "main.002_Generic_Bricks_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 49,
+            "POSITION": 48,
+            "TEXCOORD_0": 50
+          },
+          "indices": 51,
+          "material": 8,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Road.001_Sidewalk_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 53,
+            "POSITION": 52,
+            "TANGENT": 54,
+            "TEXCOORD_0": 55,
+            "TEXCOORD_1": 56
+          },
+          "indices": 57,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.828568672208042e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        3.828568672208042e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Modern Dwellings.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        3389.36376953125,
+        1743.1732177734375,
+        4499.46337890625,
+        1.0
+      ],
+      "name": "Road.009"
+    },
+    {
+      "mesh": 0,
+      "name": "Road.009_Pathway_Tiles_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        3335.190185546875,
+        1717.2447509765625,
+        6191.6298828125,
+        1.0
+      ],
+      "name": "Road.006"
+    },
+    {
+      "mesh": 1,
+      "name": "Road.006_Sidewalk_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        1940.0909423828125,
+        1676.35498046875,
+        7147.33642578125,
+        1.0
+      ],
+      "name": "Road.002"
+    },
+    {
+      "mesh": 2,
+      "name": "Road.002_Road_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        3943.64501953125,
+        1779.246337890625,
+        2750.899658203125,
+        1.0
+      ],
+      "name": "main.013"
+    },
+    {
+      "mesh": 3,
+      "name": "main.013_Dirt_0"
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        1469.9984130859375,
+        1738.1466064453125,
+        3555.347412109375,
+        1.0
+      ],
+      "name": "main.011"
+    },
+    {
+      "mesh": 4,
+      "name": "main.011_Drainage_0"
+    },
+    {
+      "children": [
+        14
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        3214.515625,
+        1747.828857421875,
+        -1740.216796875,
+        1.0
+      ],
+      "name": "main.010"
+    },
+    {
+      "mesh": 5,
+      "name": "main.010_Pathway_Tiles_0"
+    },
+    {
+      "children": [
+        16
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        3218.626708984375,
+        7347.388671875,
+        -3695.73046875,
+        1.0
+      ],
+      "name": "main.008"
+    },
+    {
+      "mesh": 6,
+      "name": "main.008_Rooftops_0"
+    },
+    {
+      "children": [
+        18
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        3213.747802734375,
+        4771.19775390625,
+        -1143.833984375,
+        1.0
+      ],
+      "name": "main.007"
+    },
+    {
+      "mesh": 7,
+      "name": "main.007_Glass_0"
+    },
+    {
+      "children": [
+        20
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        3875.011474609375,
+        4666.07568359375,
+        -1128.442626953125,
+        1.0
+      ],
+      "name": "main.006"
+    },
+    {
+      "mesh": 8,
+      "name": "main.006_Building_0"
+    },
+    {
+      "children": [
+        22
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        3784.044189453125,
+        4370.3525390625,
+        -4575.94287109375,
+        1.0
+      ],
+      "name": "main.002"
+    },
+    {
+      "mesh": 9,
+      "name": "main.002_Generic_Bricks_0"
+    },
+    {
+      "children": [
+        24
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        3389.36376953125,
+        1743.1732177734375,
+        4499.46337890625,
+        1.0
+      ],
+      "name": "Road.001"
+    },
+    {
+      "mesh": 10,
+      "name": "Road.001_Sidewalk_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    },
+    {
+      "sampler": 0,
+      "source": 9
+    },
+    {
+      "sampler": 0,
+      "source": 10
+    },
+    {
+      "sampler": 0,
+      "source": 11
+    },
+    {
+      "sampler": 0,
+      "source": 12
+    },
+    {
+      "sampler": 0,
+      "source": 13
+    },
+    {
+      "sampler": 0,
+      "source": 14
+    },
+    {
+      "sampler": 0,
+      "source": 15
+    },
+    {
+      "sampler": 0,
+      "source": 16
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=3 uid="uid://db01alk768ip0"]
+
+[ext_resource type="Texture2D" uid="uid://xacobqg6e1t1" path="res://Assets/default_image.png" id="2_cp408"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wnwqw"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2gw4c"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2.00001),
+"format": 4097,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"primitive": 3,
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 128, 191, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 128, 191, 0, 0, 0, 0, 0, 0, 128, 191, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 191)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_p2tlt"]
+resource_name = "billboard_Plane"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2.00001),
+"attribute_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 128, 63, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0),
+"format": 4119,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_wnwqw"),
+"primitive": 3,
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 128, 191, 0, 0, 0, 0, 0, 0, 128, 63, 255, 127, 255, 255, 255, 255, 255, 191, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 63, 255, 127, 255, 255, 255, 255, 255, 191, 0, 0, 128, 191, 0, 0, 0, 0, 0, 0, 128, 191, 255, 127, 255, 255, 255, 255, 255, 191, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 191, 255, 127, 255, 255, 255, 255, 255, 191)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_2gw4c")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h814r"]
+albedo_texture = ExtResource("2_cp408")
+
+[node name="billboard" type="Node3D"]
+
+[node name="Plane" type="MeshInstance3D" parent="." groups=["plane"]]
+mesh = SubResource("ArrayMesh_p2tlt")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_h814r")
