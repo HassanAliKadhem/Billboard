@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://gg6r7gli0e6n"]
+[gd_scene load_steps=2 format=3 uid="uid://gg6r7gli0e6n"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_5gkyr"]
-[ext_resource type="PackedScene" uid="uid://uudsihh7tgj6" path="res://billboard_scene.tscn" id="2_rij18"]
 
 [node name="Control" type="Control" node_paths=PackedStringArray("about_dialog", "file_dialog", "file_name_label")]
 layout_mode = 3
@@ -43,12 +42,25 @@ theme_override_constants/margin_bottom = 10
 layout_mode = 2
 alignment = 1
 
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="FlagButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "🏴 Flag"
+
+[node name="BillboardButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "🎞️ Billboard"
+
 [node name="InstructionsLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
 layout_mode = 2
-text = "Please Choose an image file so that it can be displayed on the billboard"
+text = "Please drag and drop an image so that it can be displayed on the billboard"
 autowrap_mode = 3
 
 [node name="FileButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+visible = false
 layout_mode = 2
 text = "Open Image File"
 
@@ -109,21 +121,11 @@ This work is based on \"Low Poly Billboard Sign - Standard\" (https://sketchfab.
 "
 dialog_autowrap = true
 
-[node name="SubViewportContainer" type="SubViewportContainer" parent="HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
+[node name="level" type="Node3D" parent="."]
+unique_name_in_owner = true
 
-[node name="SubViewport" type="SubViewport" parent="HBoxContainer/SubViewportContainer"]
-own_world_3d = true
-handle_input_locally = false
-msaa_2d = 1
-msaa_3d = 1
-screen_space_aa = 1
-size = Vector2i(1514, 1080)
-render_target_update_mode = 4
-
-[node name="Node3D" parent="HBoxContainer/SubViewportContainer/SubViewport" instance=ExtResource("2_rij18")]
-
+[connection signal="pressed" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/FlagButton" to="." method="_on_flag_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/BillboardButton" to="." method="_on_billboard_button_pressed"]
 [connection signal="pressed" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/FileButton" to="." method="_on_file_button_pressed"]
 [connection signal="file_selected" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/FileButton/FileDialog" to="." method="_on_file_dialog_file_selected"]
 [connection signal="pressed" from="HBoxContainer/Panel/AboutButton" to="." method="_on_about_button_pressed"]

@@ -1,3 +1,5 @@
-res://Assets/billboard.tscn::8b1e400fcc53b985e158d63701ad21c7::1683383402::res://.godot/exported/133200997/export-c5c16c7dc2e34ed5dc5b89fe86d75e37-billboard.scn
-res://billboard_scene.tscn::38786ad67006e210bf4312675b8e5d5d::1683383448::res://.godot/exported/133200997/export-1f41e59dd4b33bd19cb639f6ce2cb1ea-billboard_scene.scn
-res://main.tscn::c1143a398988a577aa0e9075990dff84::1683383401::res://.godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn
+res://Assets/billboard.tscn::8b1e400fcc53b985e158d63701ad21c7::1683383712::res://.godot/exported/133200997/export-c5c16c7dc2e34ed5dc5b89fe86d75e37-billboard.scn
+res://billboard_scene.tscn::17306932a97e00e6d3605eac0c31677c::1686678913::res://.godot/exported/133200997/export-1f41e59dd4b33bd19cb639f6ce2cb1ea-billboard_scene.scn
+res://main.tscn::9dec8634f8224b07b7bfac981c2f9c52::1686678913::res://.godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn
+res://flag.tscn::e8ff29fb2d10478aea3dd00ff45e7de1::1686678914::res://.godot/exported/133200997/export-2ff0fc8a58f6a894cb8e9a1e8aea2fce-flag.scn
+res://flag_scene.tscn::39630538db957e72f187aca4adb59f39::1686678913::res://.godot/exported/133200997/export-b7ab698345c33da1a8c742df398881e4-flag_scene.scn
