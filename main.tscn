@@ -65,8 +65,8 @@ layout_mode = 2
 text = "Open Image File"
 
 [node name="FileDialog" type="FileDialog" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/FileButton"]
-initial_position = 2
 title = "Open a File"
+initial_position = 2
 size = Vector2i(1000, 600)
 ok_button_text = "Open"
 file_mode = 0
@@ -114,7 +114,7 @@ text = "About and Credits"
 initial_position = 1
 size = Vector2i(1123, 265)
 dialog_text = "This application is made by Hasan Kadhem
-engine used Godot 4.0.2
+engine used Godot 4.2.1
 Credits for the models:
 This work is based on \"Modern NYC Dwellings\" (https://sketchfab.com/3d-models/modern-nyc-dwellings-8ef9555171c44ba1872a17558f589630) by 99.Miles (https://sketchfab.com/99.Miles) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 This work is based on \"Low Poly Billboard Sign - Standard\" (https://sketchfab.com/3d-models/low-poly-billboard-sign-standard-269d489f468c430da74ed4921ee6361d) by JeffK (https://sketchfab.com/jeffkolada) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

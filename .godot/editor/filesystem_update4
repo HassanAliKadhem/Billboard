@@ -1,5 +1,3 @@
-res://flag.tscn
-res://billboard.gd
+res://main.tscn
 res://billboard_scene.tscn
 res://flag_scene.tscn
-res://main.tscn
