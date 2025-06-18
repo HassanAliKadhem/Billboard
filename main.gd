@@ -5,10 +5,11 @@ extends Node
 @export var file_dialog: FileDialog;
 @export var file_name_label: Label;
 var image_file: ImageTexture;
+var path: String;
 
 func _ready() -> void:
-	get_viewport().files_dropped.connect(on_files_dropped)
-	_change_level("flag")
+	get_viewport().files_dropped.connect(on_files_dropped);
+	_change_level("flag");
 
 func _on_about_button_pressed() -> void:
 	about_dialog.show();
@@ -28,19 +29,38 @@ func _on_file_dialog_file_selected(path: String) -> void:
 	Billboard.change_image(image_file);
 
 func _change_level(name: String) -> void:
+	%ProgressBar.show()
 	#print(name)
-	for n in %level.get_children():
-		%level.remove_child(n)
-		n.queue_free()
-	
-	var scene
 	if (name == "flag"):
-		scene = load("res://flag_scene.tscn")
+		path = "res://flag_scene.tscn";
 	else:
-		scene = load("res://billboard_scene.tscn")
-	
-	var instance = scene.instantiate()
-	%level.add_child(instance)
+		path = "res://billboard_scene.tscn";
+	ResourceLoader.load_threaded_request(path)
+
+var progress_value := 0.0
+func _process(delta: float) -> void:
+	if not path && path != "":
+		return
+	var progress = []
+	var status = ResourceLoader.load_threaded_get_status(path, progress)
+
+	if status == ResourceLoader.ThreadLoadStatus.THREAD_LOAD_IN_PROGRESS:
+		progress_value = progress[0] * 100
+		%ProgressBar.value = move_toward(%ProgressBar.value, progress_value, delta * 20)
+
+	if status == ResourceLoader.ThreadLoadStatus.THREAD_LOAD_LOADED:
+		# zip the progress bar to 100% so we don't get weird visuals
+		%ProgressBar.value = move_toward(%ProgressBar.value, 100.0, delta * 150)
+
+		# "done" loading
+		if %ProgressBar.value >= 99:
+			for n in %level.get_children():
+				%level.remove_child(n);
+				n.queue_free();
+			var instance = ResourceLoader.load_threaded_get(path);
+			%level.add_child(instance.instantiate());
+			%ProgressBar.hide();
+			path = "";
 
 func _on_billboard_button_pressed() -> void:
 	_change_level("billboard")

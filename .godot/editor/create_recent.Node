@@ -1,3 +1,4 @@
+ProgressBar
 Node3D
 SubViewport
 Button
@@ -12,11 +13,3 @@ Label
 ItemList
 MarginContainer
 FileDialog
-MenuButton
-VBoxContainer
-AcceptDialog
-SubViewportContainer
-Panel
-CanvasLayer
-WorldEnvironment
-Camera3D

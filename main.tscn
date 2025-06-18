@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://gg6r7gli0e6n"]
+[gd_scene load_steps=3 format=3 uid="uid://gg6r7gli0e6n"]
 
-[ext_resource type="Script" path="res://main.gd" id="1_5gkyr"]
+[ext_resource type="Script" uid="uid://d1w5cm0lyyd2i" path="res://main.gd" id="1_5gkyr"]
+
+[sub_resource type="Theme" id="Theme_ig7tw"]
+default_font_size = 30
 
 [node name="Control" type="Control" node_paths=PackedStringArray("about_dialog", "file_dialog", "file_name_label")]
 layout_mode = 3
@@ -9,6 +12,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = SubResource("Theme_ig7tw")
 script = ExtResource("1_5gkyr")
 about_dialog = NodePath("HBoxContainer/Panel/AboutButton/AboutDialog")
 file_dialog = NodePath("HBoxContainer/Panel/MarginContainer/VBoxContainer/FileButton/FileDialog")
@@ -48,13 +52,14 @@ alignment = 1
 
 [node name="FlagButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "🏴 Flag"
+text = " Flag "
 
 [node name="BillboardButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "🎞️ Billboard"
+text = " Billboard "
 
 [node name="InstructionsLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 text = "Please drag and drop an image so that it can be displayed on the billboard"
 autowrap_mode = 3
@@ -75,8 +80,10 @@ filters = PackedStringArray("*.png", "*.jpg", "*.jpeg")
 show_hidden_files = true
 
 [node name="FileLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 text = "Image: "
+autowrap_mode = 3
 
 [node name="StechTypeLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
 visible = false
@@ -114,12 +121,21 @@ text = "About and Credits"
 initial_position = 1
 size = Vector2i(1123, 265)
 dialog_text = "This application is made by Hasan Kadhem
-engine used Godot 4.2.1
+using Godot 4.4
 Credits for the models:
 This work is based on \"Modern NYC Dwellings\" (https://sketchfab.com/3d-models/modern-nyc-dwellings-8ef9555171c44ba1872a17558f589630) by 99.Miles (https://sketchfab.com/99.Miles) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 This work is based on \"Low Poly Billboard Sign - Standard\" (https://sketchfab.com/3d-models/low-poly-billboard-sign-standard-269d489f468c430da74ed4921ee6361d) by JeffK (https://sketchfab.com/jeffkolada) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 "
 dialog_autowrap = true
+
+[node name="ProgressBar" type="ProgressBar" parent="HBoxContainer"]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(300, 20)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+show_percentage = false
 
 [node name="level" type="Node3D" parent="."]
 unique_name_in_owner = true

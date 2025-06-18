@@ -14,6 +14,6 @@ func change_image(newImage: ImageTexture) -> void:
 	elif (get_tree().get_nodes_in_group("flag").size() > 0):
 		flag = get_tree().get_nodes_in_group("flag")[0];
 		#print(flag);
-		flag.get_active_material(0).set_shader_parameter("texture_albedo", new_material.albedo_texture)
+		flag.get_active_material(0).set_shader_parameter("texture_albedo", new_material.albedo_texture);
 		
 		#flag.set_instance_shader_parameter("texture_albedo", new_material)
