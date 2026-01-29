@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=4 uid="uid://db01alk768ip0"]
+[gd_scene format=4 uid="uid://db01alk768ip0"]
 
 [ext_resource type="Texture2D" uid="uid://xacobqg6e1t1" path="res://Assets/default_image.png" id="2_cp408"]
 
@@ -37,9 +37,8 @@ shadow_mesh = SubResource("ArrayMesh_2gw4c")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h814r"]
 albedo_texture = ExtResource("2_cp408")
 
-[node name="billboard" type="Node3D"]
+[node name="billboard" type="Node3D" unique_id=1289289095]
 
-[node name="Plane" type="MeshInstance3D" parent="." groups=["plane"]]
+[node name="Plane" type="MeshInstance3D" parent="." unique_id=1822308650 groups=["plane"]]
 mesh = SubResource("ArrayMesh_p2tlt")
-skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_h814r")

@@ -1,11 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://gg6r7gli0e6n"]
+[gd_scene format=3 uid="uid://gg6r7gli0e6n"]
 
 [ext_resource type="Script" uid="uid://d1w5cm0lyyd2i" path="res://main.gd" id="1_5gkyr"]
 
 [sub_resource type="Theme" id="Theme_ig7tw"]
 default_font_size = 30
 
-[node name="Control" type="Control" node_paths=PackedStringArray("about_dialog", "file_dialog", "file_name_label")]
+[node name="Control" type="Control" unique_id=721965395 node_paths=PackedStringArray("about_dialog", "file_dialog", "file_name_label")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -18,7 +18,7 @@ about_dialog = NodePath("HBoxContainer/Panel/AboutButton/AboutDialog")
 file_dialog = NodePath("HBoxContainer/Panel/MarginContainer/VBoxContainer/FileButton/FileDialog")
 file_name_label = NodePath("HBoxContainer/Panel/MarginContainer/VBoxContainer/FileLabel")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=788711076]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -26,11 +26,11 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Panel" type="Panel" parent="HBoxContainer"]
+[node name="Panel" type="Panel" parent="HBoxContainer" unique_id=310244309]
 custom_minimum_size = Vector2(400, 0)
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/Panel"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/Panel" unique_id=1222279235]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -42,34 +42,34 @@ theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 
-[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/Panel/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/Panel/MarginContainer" unique_id=589258495]
 layout_mode = 2
 alignment = 1
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=362194242]
 layout_mode = 2
 alignment = 1
 
-[node name="FlagButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="FlagButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1824979692]
 layout_mode = 2
 text = " Flag "
 
-[node name="BillboardButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="BillboardButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer" unique_id=442559367]
 layout_mode = 2
 text = " Billboard "
 
-[node name="InstructionsLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+[node name="InstructionsLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=1164373331]
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 text = "Please drag and drop an image so that it can be displayed on the billboard"
 autowrap_mode = 3
 
-[node name="FileButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+[node name="FileButton" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=1009476684]
 visible = false
 layout_mode = 2
 text = "Open Image File"
 
-[node name="FileDialog" type="FileDialog" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/FileButton"]
+[node name="FileDialog" type="FileDialog" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/FileButton" unique_id=824660668]
 title = "Open a File"
 initial_position = 2
 size = Vector2i(1000, 600)
@@ -77,20 +77,19 @@ ok_button_text = "Open"
 file_mode = 0
 access = 2
 filters = PackedStringArray("*.png", "*.jpg", "*.jpeg")
-show_hidden_files = true
 
-[node name="FileLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+[node name="FileLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=755365517]
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 text = "Image: "
 autowrap_mode = 3
 
-[node name="StechTypeLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+[node name="StechTypeLabel" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=1295060085]
 visible = false
 layout_mode = 2
 text = "Strech Type"
 
-[node name="StechTypeItemList" type="ItemList" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+[node name="StechTypeItemList" type="ItemList" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=693851420]
 visible = false
 layout_mode = 2
 allow_reselect = true
@@ -99,13 +98,13 @@ item_count = 2
 item_0/text = "Best Fit"
 item_1/text = "Strech Fit"
 
-[node name="DarkModeCheckButton" type="CheckButton" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+[node name="DarkModeCheckButton" type="CheckButton" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=469433273]
 visible = false
 layout_mode = 2
 text = "Night
 "
 
-[node name="AboutButton" type="Button" parent="HBoxContainer/Panel"]
+[node name="AboutButton" type="Button" parent="HBoxContainer/Panel" unique_id=351963210]
 layout_mode = 1
 anchors_preset = 12
 anchor_top = 1.0
@@ -117,18 +116,18 @@ grow_vertical = 0
 size_flags_vertical = 8
 text = "About and Credits"
 
-[node name="AboutDialog" type="AcceptDialog" parent="HBoxContainer/Panel/AboutButton"]
+[node name="AboutDialog" type="AcceptDialog" parent="HBoxContainer/Panel/AboutButton" unique_id=796156078]
 initial_position = 1
 size = Vector2i(1123, 265)
 dialog_text = "This application is made by Hasan Kadhem
-using Godot 4.4
+using Godot 4.6
 Credits for the models:
 This work is based on \"Modern NYC Dwellings\" (https://sketchfab.com/3d-models/modern-nyc-dwellings-8ef9555171c44ba1872a17558f589630) by 99.Miles (https://sketchfab.com/99.Miles) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 This work is based on \"Low Poly Billboard Sign - Standard\" (https://sketchfab.com/3d-models/low-poly-billboard-sign-standard-269d489f468c430da74ed4921ee6361d) by JeffK (https://sketchfab.com/jeffkolada) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 "
 dialog_autowrap = true
 
-[node name="ProgressBar" type="ProgressBar" parent="HBoxContainer"]
+[node name="ProgressBar" type="ProgressBar" parent="HBoxContainer" unique_id=1265058607]
 unique_name_in_owner = true
 visible = false
 custom_minimum_size = Vector2(300, 20)
@@ -137,7 +136,7 @@ size_flags_horizontal = 6
 size_flags_vertical = 4
 show_percentage = false
 
-[node name="level" type="Node3D" parent="."]
+[node name="level" type="Node3D" parent="." unique_id=606795006]
 unique_name_in_owner = true
 
 [connection signal="pressed" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/FlagButton" to="." method="_on_flag_button_pressed"]

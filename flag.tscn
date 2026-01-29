@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://ddikcj3swt4pd"]
+[gd_scene format=3 uid="uid://ddikcj3swt4pd"]
 
 [ext_resource type="Texture2D" uid="uid://cma6dqrdle7i0" path="res://Assets/default_flag.bmp" id="1_5r4qr"]
 
@@ -60,8 +60,8 @@ void fragment() {
 noise_type = 0
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_mtp5n"]
-seamless = true
 noise = SubResource("FastNoiseLite_mmgjm")
+seamless = true
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_hyfi4"]
 render_priority = 0
@@ -82,10 +82,9 @@ shader_parameter/uv_offset_scale = Vector2(-0.2, -0.1)
 shader_parameter/time_scale = Vector2(0.2, 0)
 shader_parameter/face_distortion = 0.5
 
-[node name="Node3D" type="Node3D"]
+[node name="Node3D" type="Node3D" unique_id=2115298187]
 
-[node name="Plane" type="MeshInstance3D" parent="." groups=["flag"]]
+[node name="Plane" type="MeshInstance3D" parent="." unique_id=1023025017 groups=["flag"]]
 transform = Transform3D(1.667, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 mesh = SubResource("PlaneMesh_nwp1y")
-skeleton = NodePath("")
 surface_material_override/0 = SubResource("ShaderMaterial_hyfi4")
