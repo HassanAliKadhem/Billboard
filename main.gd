@@ -19,7 +19,7 @@ func _on_file_button_pressed() -> void:
 	file_dialog.show();
 	file_dialog.popup_centered();
 
-func on_files_dropped(files) -> void:
+func on_files_dropped(files: PackedStringArray) -> void:
 	_on_file_dialog_file_selected(files[0])
 
 func _on_file_dialog_file_selected(path: String) -> void:
@@ -41,8 +41,8 @@ var progress_value := 0.0
 func _process(delta: float) -> void:
 	if not path && path != "":
 		return
-	var progress = []
-	var status = ResourceLoader.load_threaded_get_status(path, progress)
+	var progress: Array = []
+	var status: ResourceLoader.ThreadLoadStatus = ResourceLoader.load_threaded_get_status(path, progress)
 
 	if status == ResourceLoader.ThreadLoadStatus.THREAD_LOAD_IN_PROGRESS:
 		progress_value = progress[0] * 100
@@ -57,7 +57,7 @@ func _process(delta: float) -> void:
 			for n in %level.get_children():
 				%level.remove_child(n);
 				n.queue_free();
-			var instance = ResourceLoader.load_threaded_get(path);
+			var instance: Resource = ResourceLoader.load_threaded_get(path);
 			%level.add_child(instance.instantiate());
 			%ProgressBar.hide();
 			path = "";
